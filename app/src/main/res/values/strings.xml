@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">BasketManager</string>
+
+    <string name="hub_name">BasketManagerNotificationHub</string>
+    <string name="hub_listen_connection_string">Endpoint=sb://basketmanager.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=E9zC004lxT6DJP4ic82VPvTAn76pWe/ZOdNSNCCOCEY=</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="profile">Profilo</string>
+    <string name="past">Partite Arbitrate</string>
+    <string name="plan">Pianificazione</string>
+    <string name="unwilling">Indisponibilità</string>
+    <string name="logout">Esci</string>
+    <string name="title">BasketManager</string>
+    <string name="profileDescription">profile picture</string>
+    <string name="profile_name">Nome Cognome</string>
+    <string name="proposal">Partite Proposte</string>
+    <string name="account_name">Nome Cognome</string>
+    <string name="next_match">Prossima Partita</string>
+    <string name="no_connection">Nessuna connessione</string>
+    <string name="selected_match">Partita Selezionata</string>
+    <string name="future_matches">Partite Future</string>
+    <string name="itinerary">Tappe</string>
+    <string name="deleted">Eliminata</string>
+    <string name="cancel">Annulla</string>
+    <string name="add_step">Aggiungi Tappa</string>
+    <string name="confirm_plan">Conferma</string>
+    <string name="stopover_place">Città</string>
+    <string name="start_unwilling">Inizio periodo di indisponibilità</string>
+    <string name="end_unwilling">Fine periodo di indisponibilità</string>
+    <string name="title_unwilling">Periodo di Indisponibilità</string>
+    <string name="delete">Elimina</string>
+    <string name="edit">Modifica</string>
+    <string name="ref_title">Nome e cognome</string>
+    <string name="home_team_title">Squadra di Casa:</string>
+    <string name="visiting_team_title">Squadra Ospite:</string>
+    <string name="past_matches">Partite Passate</string>
+    <string name="planning">Pianifiaczione</string>
+
+    <string name="other">Altro</string>
+
+    <string-array name="transport_array">
+        <item>Auto Privata</item>
+        <item>Treno</item>
+        <item>Corriera</item>
+        <item>Taxi</item>
+    </string-array>
+
+    <string-array name="motivations">
+        <item>Motivi Familiari</item>
+        <item>Malattia</item>
+        <item>Motivi di Studio</item>
+        <item>Infortunio sul lavoro</item>
+        <item>Lutto</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="context_menu">
+        <item>Modifica</item>
+        <item>Elimina</item>
+    </string-array>
+
+    <string name="title_activity_maps">Mappa</string>
+    <string name="refuse_title">Rifiuta Partita</string>
+    <string name="motivation">Motivazione</string>
+    <string name="hint">Suggerimento</string>
+    <string name="reject_button_text">Invia rifiuto</string>
+    <string name="choose_motivation">Scegli la motivazione</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">Indirizzo email non valido</string>
+    <string name="error_invalid_password">Password troppo corta</string>
+    <string name="error_incorrect_password">Password non corretta</string>
+    <string name="error_field_required">Inserisci la tua email</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="login">Login</string>
+    <string name="transport">Mezzo di trasporto</string>
+    <string name="driver_flag">Sono il conducente</string>
+    <string name="choose_transport">Scegli il mezzo con cui intendi partire</string>
+    <string name="next">Avanti</string>
+    <string name="save">Salva</string>
+    <string name="no_future_match">Nessuna partita in programma</string>
+    <string name="no_matches_to_plan">Nessuna partita da pianificare</string>
+
+</resources>

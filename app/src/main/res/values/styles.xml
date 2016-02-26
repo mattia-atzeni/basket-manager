@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--item name="android:colorButtonNormal">@color/colorButtonNormal</item-->
+        <item name="android:textColorSecondary">@color/secondary_text_material_light</item>
+        <item name="android:textColorPrimary">@color/primary_text_material_light</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:background">@drawable/blue_card</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <style name="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/cardView_margin</item>
+        <item name="android:layout_marginRight">@dimen/cardView_margin</item>
+        <item name="android:layout_marginBottom">@dimen/cardView_margin</item>
+        <item name="cardElevation">@dimen/cardView_elevation</item>
+        <item name="cardCornerRadius">2dp</item>
+    </style>
+
+    <style name="ProfileItemDrawable">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ProfileItemTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ProfileItemValue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/referee_profile"
+    android:paddingTop="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.CardView
+        style="@style/CardView"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:background="@drawable/blue_card">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/profile_picture"
+                    android:layout_marginTop="-32dp"
+                    android:padding="40dp"
+                    android:src="@drawable/profile1"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profile_picture"
+                    android:text="Mattia Atzeni"
+                    android:id="@+id/name"
+                    android:gravity="center"
+                    android:layout_marginTop="-42dp"
+                    android:textColor="@color/white"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.6"
+                android:divider="@drawable/divider_dark"
+                android:showDividers="middle"
+                android:dividerPadding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_weight="0.3">
+
+                    <TextView
+                        style="@style/ProfileItemDrawable"
+                        android:drawableStart="@drawable/ic_email"
+                        android:text="mattia.atzeni@outlook.it"
+                        android:id="@+id/email"/>
+
+                    <TextView
+                        style="@style/ProfileItemDrawable"
+                        android:drawableStart="@drawable/ic_phone"
+                        android:text="331 7486286"
+                        android:id="@+id/phone"/>
+
+                    <TextView
+                        style="@style/ProfileItemDrawable"
+                        android:drawableStart="@drawable/ic_place"
+                        android:text="Selargius, CA"
+                        android:id="@+id/place"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5"
+                    android:divider="@drawable/divider_light"
+                    android:showDividers="middle"
+                    android:dividerPadding="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:text="Data di nascita  "
+                            style="@style/ProfileItemTitle" />
+
+                        <TextView
+                            android:text="14/12/1994"
+                            android:id="@+id/birthdate"
+                            style="@style/ProfileItemValue" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+
+                        <TextView
+                            style="@style/ProfileItemTitle"
+                            android:text="Indirizzo " />
+
+                        <TextView
+                            style="@style/ProfileItemValue"
+                            android:text="Via Bellini, 24"
+                            android:id="@+id/address"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+
+                        <TextView
+                            style="@style/ProfileItemTitle"
+                            android:text="Numero Tessera " />
+
+                        <TextView
+                            style="@style/ProfileItemValue"
+                            android:text="48958"
+                            android:id="@+id/card_number"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+
+                        <TextView
+                            style="@style/ProfileItemTitle"
+                            android:text="Categoria " />
+
+                        <TextView
+                            style="@style/ProfileItemValue"
+                            android:text="Serie C"
+                            android:id="@+id/category"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+

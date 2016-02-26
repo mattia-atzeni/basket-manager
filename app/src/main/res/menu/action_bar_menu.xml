@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".BaseActivity" >
+    <item app:actionLayout="@layout/notification_layout"
+        app:showAsAction="always"
+        android:title="@string/proposal"
+        android:id="@+id/menu_basketball"
+        android:drawSelectorOnTop="true"/>
+
+    <item app:actionLayout="@layout/profile_layout"
+        app:showAsAction="always"
+        android:title="@string/profile"
+        android:id="@+id/menu_profile"/>
+</menu>

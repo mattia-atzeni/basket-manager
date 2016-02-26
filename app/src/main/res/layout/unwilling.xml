@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".BaseActivity"
+    android:fillViewport="true"
+    android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp">
+            <android.support.v7.widget.CardView
+                android:layout_height="match_parent"
+                style="@style/CardView">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/Title"
+                    android:text="@string/title_unwilling"
+                    android:focusableInTouchMode="true"
+                    android:focusable="true" />
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="30dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/error_message"
+                        android:text="Si sono verificati 2 errori"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:padding="18dp"
+                        android:textColor="@color/dark_red"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/error_background"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/space" />
+
+                    <com.basket.basketmanager.DateText
+                        android:id="@+id/start_unwilling"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/start_unwilling" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_weight="1" />
+
+                    <com.basket.basketmanager.DateText
+                        android:id="@+id/end_unwilling"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/end_unwilling" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:padding="30dp"
+                            android:id="@+id/ok_button"
+                            android:layout_marginLeft="-5dp"
+                            android:layout_weight="1.4"
+                            android:text="Invia" />
+
+                        <Button
+                            style="?android:attr/buttonBarButtonStyle"
+                            android:background="@drawable/button_background"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:text="Annulla"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginBottom="6dp"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/cancel_button"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

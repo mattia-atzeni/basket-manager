@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/swipe_layout">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:text="@string/deleted"
+            android:id="@+id/deleted"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:paddingStart="20dp" />
+
+        <View android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:clickable="true"
+            android:id="@+id/dummy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:text="@string/cancel"
+            android:id="@+id/cancel"
+            android:clickable="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical|end"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:paddingEnd="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/surface"
+        android:background="?android:attr/selectableItemBackground"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="17sp"
+            android:paddingTop="16dp"
+            android:paddingStart="18dp"
+            android:paddingBottom="16dp"
+            android:id="@+id/stopover"
+            android:gravity="center_vertical"
+            android:layout_weight="1"/>
+        <TextView
+            android:paddingEnd="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:id="@+id/transport_text"
+            android:textSize="15sp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:weightSum="2">
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/none"
+                android:id="@+id/color_previous"
+                android:layout_weight="1"/>
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@color/none"
+                android:id="@+id/color_next"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.daimajia.swipe.SwipeLayout>

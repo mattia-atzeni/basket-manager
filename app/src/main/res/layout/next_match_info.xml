@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:clickable="true"
+    android:id="@+id/next_match_info"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luogo"
+        android:id="@+id/next_match_place"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indirizzo"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/next_match_address"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Data"
+        android:layout_below="@id/next_match_place"
+        android:id="@+id/next_match_date" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ora"
+        android:id="@+id/next_match_time"
+        android:paddingBottom="10dp"
+        android:layout_alignTop="@+id/next_match_date"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/next_match_date"
+        android:layout_marginTop="20dp"
+        android:weightSum="2">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Pianifica"
+            android:id="@+id/next_match_plan"
+            android:layout_marginLeft="-5dp"
+            android:layout_weight="1"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dettagli"
+            android:padding="20dp"
+            android:id="@+id/next_match_details"
+            android:layout_marginRight="-5dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

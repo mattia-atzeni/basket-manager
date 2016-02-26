@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0045ae</color>
+    <color name="colorPrimaryDark">#003380</color>
+    <!--color name="colorAccent">#1e78ff</color-->
+    <color name="colorAccent">#2979ff</color>
+    <color name="secondary_text_default_material_dark">#ffffff</color>
+    <color name="relief">#cabbbbbb</color>
+    <!--color name="colorButtonNormal">#e0f7fa</color-->
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="secondary_text_default_material_light">#212121</color>
+    <color name="secondary_text_material_light">#424242</color>
+    <color name="primary_text_material_light">#424242</color>
+    <color name="text_color">#424242</color>
+
+    <color name="none">#00000000</color>
+
+    <color name="bright_pink">#FF007F</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#ffb74d</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="spring_green">#87ff5c</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="dark_red">#9e1616</color>
+    <color name="light_red">#ffcccc</color>
+
+    <array name="colors">
+        <item>@color/azure</item>
+        <item>@color/spring_green</item>
+        <item>@color/cyan</item>
+        <item>@color/yellow</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/chartreuse</item>
+        <item>@color/green</item>
+        <item>@color/blue</item>
+        <item>@color/violet</item>
+        <item>@color/magenta</item>
+        <item>@color/bright_pink</item>
+    </array>
+</resources>
+

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:contextClickable="false"
+    tools:showIn="@layout/match_layout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Title"
+        android:text="Dettagli Partita"
+        android:id="@+id/title"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="19sp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/home_team"
+                android:text="Settimo Basket"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="19sp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text=" - "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|end"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="19sp"
+                android:id="@+id/visiting_team"
+                android:text="Sinnai Basket"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Data:"
+                    android:textSize="19sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/date"
+                    android:text="12/02/2016"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Ora:"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginLeft="10dp"
+                    android:text="18:45"
+                    android:id="@+id/time"
+                    android:layout_gravity="end"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Categoria:"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Esordienti"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:id="@+id/category" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Arbitri:"
+                android:paddingBottom="6dp"
+                android:textSize="19sp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:id="@+id/referee_title"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pinco Pallino"
+                    android:id="@+id/first_referee"
+                    android:gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Pinco Pallino"
+                    android:id="@+id/second_referee"
+                    android:gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Campo di Gioco:"
+                android:paddingBottom="6dp"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:id="@+id/place_title" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:text="Cagliari"
+                android:paddingBottom="4dp"
+                android:layout_below="@id/place_title"
+                android:id="@+id/place"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:text="Via pessagno 1"
+                android:layout_below="@id/place"
+                android:id="@+id/address"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <!--Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignBottom="@id/address"
+                android:layout_marginRight="-5dp"
+                android:text="Mappa"
+                android:id="@+id/map_button"/-->
+
+            <!--android.support.design.widget.FloatingActionButton
+                android:id="@+id/map_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:clickable="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_place_white"
+                app:backgroundTint="@color/colorAccent"
+                app:rippleColor="#FFF" /-->
+
+            <ImageButton
+                android:id="@+id/map_button"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/map_button"
+                android:src="@drawable/ic_place_white"
+                android:tint="@android:color/white"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
