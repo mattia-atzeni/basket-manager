@@ -11,8 +11,8 @@ More in detail, the application allows a referee to:
 * Browse a map showing where the game takes place;
 * Plan the way to the match, in order to ask for a refund for travel expenses.
 
-BasketManager is built with Gradle and has been natively developed with Android Studio in Java 8.0.
-The notification service is powered by Microsoft Azure, whereas the local database is managed with SQLite.
+BasketManager is built with Gradle and has been natively developed with **Android Studio** in Java 8.0.
+The notification service is powered by **Microsoft Azure**, whereas the local database is managed with **SQLite**.
 
 ## Screenshots
 
