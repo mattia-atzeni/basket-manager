@@ -2,7 +2,7 @@
 
 BasketManager is an Android application designed to allow Basket referees to manage their matches.
 
-More in detail, the application allows a referee to:
+More in details, the application allows a referee to:
 
 * Accept or reject an invitation to umpire a game;
 * Receive a notification when a new invitation is pending;
