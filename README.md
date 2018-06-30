@@ -1,8 +1,8 @@
-# Basket Manager
 <h1 align=center>
 <img src="Logo/horizontal.png" width=50%>
 </h1>
-Basket Manager is an Android application designed to allow Basket referees to manage their matches.
+
+BasketManager is an Android application designed to allow Basket referees to manage their matches.
 
 More in details, the application allows a referee to:
 
